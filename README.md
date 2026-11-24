@@ -23,13 +23,13 @@ cvst-fundus-hybrid/
 │  └─ convnextv2_base_1k_224_fcmae.pt
 ├─ dinov3/                      # Local DINOv3 repository for offline torch.hub loading
 ├─ outputs/                     # Auto-generated manifests, splits, checkpoints, predictions, figures & logs
-├─ core.py                      # Config, I/O, seed/device, AMP helpers, and evaluation metrics
+├─ core.py                      # Config, I/O, seed/device,  and evaluation metrics
 ├─ anatomy.py                   # OD/OS-aware optic disc localization, FOV crop, and ROI masking
 ├─ backbones.py                 # DINOv3, ConvNeXt V2, CrossAttentionFusion, and model definitions
 ├─ data.py                      # Manifest generation, patient-disjoint splits, transforms, and Datasets
 ├─ explain.py                   # Attention rollout, grad-rollout, and Grad-CAM CLI
-├─ train.py                     # Training entrypoint (AMP + gradient accumulation + checkpointing)
-├─ evaluate.py                  # Evaluation, model comparison, and ablation summary CLI
-├─ prepare_data.py              # Dataset audit, manifest, and split generation CLI
+├─ train.py                     # Training entrypoint 
+├─ evaluate.py                  # Evaluation, model comparison, and ablation summary
+├─ prepare_data.py              # Dataset audit, manifest, and split generation 
 ├─ requirements.txt
 └─ README.md
